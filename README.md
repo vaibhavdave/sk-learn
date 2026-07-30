@@ -1,8 +1,10 @@
 # sk-learn
 
-A structured, hands-on syllabus for learning classic machine learning algorithms:
-**theory first, then implementation and evaluation with scikit-learn**, inside
-Jupyter notebooks with visualizations to build intuition.
+A structured, hands-on syllabus for learning machine learning: **theory
+first, then implementation and evaluation**, inside Jupyter notebooks with
+visualizations to build intuition. Modules 00-09 cover classic ML with
+scikit-learn; modules 10+ continue into deep learning with PyTorch (and a
+TensorFlow/Keras comparison module).
 
 ## How each notebook is organized
 
@@ -34,7 +36,17 @@ jupyter notebook
 | [07_imbalanced_and_feature_selection](07_imbalanced_and_feature_selection) | Class weights, SMOTE, feature importance, RFE, SelectKBest |
 | [08_neural_nets_intro](08_neural_nets_intro) | sklearn's MLPClassifier/MLPRegressor (bridge topic, not full deep learning) |
 | [09_capstone_project](09_capstone_project) | End-to-end project applying the full pipeline to a real dataset |
+| [10_deep_learning_foundations](10_deep_learning_foundations) | PyTorch tensors, autograd/computation graphs, verifying gradients by hand, a raw-tensor forward pass |
 
-Datasets used are small, well-known sklearn built-ins (iris, wine, breast cancer,
-california housing, diabetes) or synthetic (`make_classification`, `make_regression`,
-`make_blobs`) so every notebook runs quickly with no external downloads.
+Datasets used are small, well-known sklearn built-ins (iris, wine, breast
+cancer, diabetes, digits) or synthetic (`make_classification`, `make_regression`,
+`make_blobs`, `make_moons`) so every notebook runs quickly with no external
+downloads.
+
+### Deep learning track (10+)
+
+Continues the same theory -> implementation -> evaluation structure, using
+PyTorch as the primary framework (with a dedicated module comparing against
+TensorFlow/Keras). Planned: PyTorch foundations & training practice, a
+TensorFlow/Keras equivalence module, CNNs & transfer learning, RNNs/LSTMs,
+Transformers, autoencoders, and a deep learning capstone.
