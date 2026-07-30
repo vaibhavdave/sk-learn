@@ -37,6 +37,7 @@ jupyter notebook
 | [08_neural_nets_intro](08_neural_nets_intro) | sklearn's MLPClassifier/MLPRegressor (bridge topic, not full deep learning) |
 | [09_capstone_project](09_capstone_project) | End-to-end project applying the full pipeline to a real dataset |
 | [10_deep_learning_foundations](10_deep_learning_foundations) | PyTorch tensors, autograd/computation graphs, verifying gradients by hand, a raw-tensor forward pass |
+| [11_pytorch_training](11_pytorch_training) | `nn.Module`, MSE vs. Cross-Entropy loss, SGD/Momentum/Adam comparison, full `DataLoader` training loop, vs. sklearn's MLPClassifier |
 
 Datasets used are small, well-known sklearn built-ins (iris, wine, breast
 cancer, diabetes, digits) or synthetic (`make_classification`, `make_regression`,
