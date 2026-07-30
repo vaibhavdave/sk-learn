@@ -43,6 +43,7 @@ jupyter notebook
 | [14_cnn_fundamentals](14_cnn_fundamentals) | Convolution & pooling from first principles, building/training a small CNN, visualizing learned filters and feature maps, vs. Module 11's MLP |
 | [15_deeper_cnns_transfer_learning](15_deeper_cnns_transfer_learning) | BatchNorm in CNNs, skip connections (ResNet idea), data augmentation, and a self-contained transfer learning demo on FashionMNIST |
 | [16_rnns_lstms_grus](16_rnns_lstms_grus) | RNN recurrence & sine-wave forecasting, vanishing gradients demonstrated on a long-range dependency task, LSTM/GRU gating, hidden state visualization |
+| [17_attention_and_transformers](17_attention_and_transformers) | Self-attention & multi-head attention from scratch, positional encoding, a minimal Transformer block, solving Module 16's long-range task where RNNs failed |
 
 Datasets used are small, well-known sklearn built-ins (iris, wine, breast
 cancer, diabetes, digits) or synthetic (`make_classification`, `make_regression`,
