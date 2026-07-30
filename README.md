@@ -40,6 +40,7 @@ jupyter notebook
 | [11_pytorch_training](11_pytorch_training) | `nn.Module`, MSE vs. Cross-Entropy loss, SGD/Momentum/Adam comparison, full `DataLoader` training loop, vs. sklearn's MLPClassifier |
 | [12_training_deep_networks](12_training_deep_networks) | Weight initialization, Dropout, weight decay, BatchNorm, learning rate scheduling, early stopping |
 | [13_tensorflow_keras](13_tensorflow_keras) | Same tensors/autograd/MLP/training-loop concepts rebuilt in TensorFlow/Keras, directly compared against modules 10-11 |
+| [14_cnn_fundamentals](14_cnn_fundamentals) | Convolution & pooling from first principles, building/training a small CNN, visualizing learned filters and feature maps, vs. Module 11's MLP |
 
 Datasets used are small, well-known sklearn built-ins (iris, wine, breast
 cancer, diabetes, digits) or synthetic (`make_classification`, `make_regression`,
