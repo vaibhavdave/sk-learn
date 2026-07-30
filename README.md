@@ -1,8 +1,10 @@
 # sk-learn
 
-A structured, hands-on syllabus for learning classic machine learning algorithms:
-**theory first, then implementation and evaluation with scikit-learn**, inside
-Jupyter notebooks with visualizations to build intuition.
+A structured, hands-on syllabus for learning machine learning: **theory
+first, then implementation and evaluation**, inside Jupyter notebooks with
+visualizations to build intuition. Modules 00-09 cover classic ML with
+scikit-learn; modules 10+ continue into deep learning with PyTorch (and a
+TensorFlow/Keras comparison module).
 
 ## How each notebook is organized
 
@@ -34,7 +36,27 @@ jupyter notebook
 | [07_imbalanced_and_feature_selection](07_imbalanced_and_feature_selection) | Class weights, SMOTE, feature importance, RFE, SelectKBest |
 | [08_neural_nets_intro](08_neural_nets_intro) | sklearn's MLPClassifier/MLPRegressor (bridge topic, not full deep learning) |
 | [09_capstone_project](09_capstone_project) | End-to-end project applying the full pipeline to a real dataset |
+| [10_deep_learning_foundations](10_deep_learning_foundations) | PyTorch tensors, autograd/computation graphs, verifying gradients by hand, a raw-tensor forward pass |
+| [11_pytorch_training](11_pytorch_training) | `nn.Module`, MSE vs. Cross-Entropy loss, SGD/Momentum/Adam comparison, full `DataLoader` training loop, vs. sklearn's MLPClassifier |
+| [12_training_deep_networks](12_training_deep_networks) | Weight initialization, Dropout, weight decay, BatchNorm, learning rate scheduling, early stopping |
+| [13_tensorflow_keras](13_tensorflow_keras) | Same tensors/autograd/MLP/training-loop concepts rebuilt in TensorFlow/Keras, directly compared against modules 10-11 |
+| [14_cnn_fundamentals](14_cnn_fundamentals) | Convolution & pooling from first principles, building/training a small CNN, visualizing learned filters and feature maps, vs. Module 11's MLP |
+| [15_deeper_cnns_transfer_learning](15_deeper_cnns_transfer_learning) | BatchNorm in CNNs, skip connections (ResNet idea), data augmentation, and a self-contained transfer learning demo on FashionMNIST |
+| [16_rnns_lstms_grus](16_rnns_lstms_grus) | RNN recurrence & sine-wave forecasting, vanishing gradients demonstrated on a long-range dependency task, LSTM/GRU gating, hidden state visualization |
+| [17_attention_and_transformers](17_attention_and_transformers) | Self-attention & multi-head attention from scratch, positional encoding, a minimal Transformer block, solving Module 16's long-range task where RNNs failed |
+| [18_autoencoders_and_generative_models](18_autoencoders_and_generative_models) | Autoencoders & denoising autoencoders, VAEs (reparameterization trick, sampling new digits), a minimal working GAN matching a 2D distribution |
+| [19_deep_learning_capstone](19_deep_learning_capstone) | End-to-end FashionMNIST project: EDA -> proper train/val/test split -> CNN+BatchNorm+residual block -> early stopping/LR scheduling -> augmentation comparison -> evaluation -> interpretation |
 
-Datasets used are small, well-known sklearn built-ins (iris, wine, breast cancer,
-california housing, diabetes) or synthetic (`make_classification`, `make_regression`,
-`make_blobs`) so every notebook runs quickly with no external downloads.
+Datasets used are small, well-known sklearn/torchvision built-ins (iris,
+wine, breast cancer, diabetes, digits, FashionMNIST) or synthetic
+(`make_classification`, `make_regression`, `make_blobs`, `make_moons`) so
+every notebook runs quickly with minimal or no external downloads.
+
+### Deep learning track (10-19)
+
+Continues the same theory -> implementation -> evaluation structure, using
+PyTorch as the primary framework (with a dedicated module comparing against
+TensorFlow/Keras): PyTorch foundations & training practice, a TensorFlow/
+Keras equivalence module, CNNs & transfer learning, RNNs/LSTMs/GRUs,
+self-attention & Transformers, autoencoders/VAEs/GANs, and a deep learning
+capstone project.
