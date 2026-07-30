@@ -45,16 +45,18 @@ jupyter notebook
 | [16_rnns_lstms_grus](16_rnns_lstms_grus) | RNN recurrence & sine-wave forecasting, vanishing gradients demonstrated on a long-range dependency task, LSTM/GRU gating, hidden state visualization |
 | [17_attention_and_transformers](17_attention_and_transformers) | Self-attention & multi-head attention from scratch, positional encoding, a minimal Transformer block, solving Module 16's long-range task where RNNs failed |
 | [18_autoencoders_and_generative_models](18_autoencoders_and_generative_models) | Autoencoders & denoising autoencoders, VAEs (reparameterization trick, sampling new digits), a minimal working GAN matching a 2D distribution |
+| [19_deep_learning_capstone](19_deep_learning_capstone) | End-to-end FashionMNIST project: EDA -> proper train/val/test split -> CNN+BatchNorm+residual block -> early stopping/LR scheduling -> augmentation comparison -> evaluation -> interpretation |
 
-Datasets used are small, well-known sklearn built-ins (iris, wine, breast
-cancer, diabetes, digits) or synthetic (`make_classification`, `make_regression`,
-`make_blobs`, `make_moons`) so every notebook runs quickly with no external
-downloads.
+Datasets used are small, well-known sklearn/torchvision built-ins (iris,
+wine, breast cancer, diabetes, digits, FashionMNIST) or synthetic
+(`make_classification`, `make_regression`, `make_blobs`, `make_moons`) so
+every notebook runs quickly with minimal or no external downloads.
 
-### Deep learning track (10+)
+### Deep learning track (10-19)
 
 Continues the same theory -> implementation -> evaluation structure, using
 PyTorch as the primary framework (with a dedicated module comparing against
-TensorFlow/Keras). Planned: PyTorch foundations & training practice, a
-TensorFlow/Keras equivalence module, CNNs & transfer learning, RNNs/LSTMs,
-Transformers, autoencoders, and a deep learning capstone.
+TensorFlow/Keras): PyTorch foundations & training practice, a TensorFlow/
+Keras equivalence module, CNNs & transfer learning, RNNs/LSTMs/GRUs,
+self-attention & Transformers, autoencoders/VAEs/GANs, and a deep learning
+capstone project.
