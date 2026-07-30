@@ -41,6 +41,7 @@ jupyter notebook
 | [12_training_deep_networks](12_training_deep_networks) | Weight initialization, Dropout, weight decay, BatchNorm, learning rate scheduling, early stopping |
 | [13_tensorflow_keras](13_tensorflow_keras) | Same tensors/autograd/MLP/training-loop concepts rebuilt in TensorFlow/Keras, directly compared against modules 10-11 |
 | [14_cnn_fundamentals](14_cnn_fundamentals) | Convolution & pooling from first principles, building/training a small CNN, visualizing learned filters and feature maps, vs. Module 11's MLP |
+| [15_deeper_cnns_transfer_learning](15_deeper_cnns_transfer_learning) | BatchNorm in CNNs, skip connections (ResNet idea), data augmentation, and a self-contained transfer learning demo on FashionMNIST |
 
 Datasets used are small, well-known sklearn built-ins (iris, wine, breast
 cancer, diabetes, digits) or synthetic (`make_classification`, `make_regression`,

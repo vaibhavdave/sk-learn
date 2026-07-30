@@ -11,3 +11,4 @@ torchinfo
 # tensorflow-cpu avoids noisy "no CUDA drivers found" logs on machines without a GPU.
 # If you have an NVIDIA GPU + CUDA installed, swap this for the regular `tensorflow` package instead.
 tensorflow-cpu
+torchvision
