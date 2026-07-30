@@ -39,6 +39,7 @@ jupyter notebook
 | [10_deep_learning_foundations](10_deep_learning_foundations) | PyTorch tensors, autograd/computation graphs, verifying gradients by hand, a raw-tensor forward pass |
 | [11_pytorch_training](11_pytorch_training) | `nn.Module`, MSE vs. Cross-Entropy loss, SGD/Momentum/Adam comparison, full `DataLoader` training loop, vs. sklearn's MLPClassifier |
 | [12_training_deep_networks](12_training_deep_networks) | Weight initialization, Dropout, weight decay, BatchNorm, learning rate scheduling, early stopping |
+| [13_tensorflow_keras](13_tensorflow_keras) | Same tensors/autograd/MLP/training-loop concepts rebuilt in TensorFlow/Keras, directly compared against modules 10-11 |
 
 Datasets used are small, well-known sklearn built-ins (iris, wine, breast
 cancer, diabetes, digits) or synthetic (`make_classification`, `make_regression`,
